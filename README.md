@@ -4,11 +4,11 @@
 
 [Giới thiệu Design Patterns](https://gpcoder.com/4164-gioi-thieu-design-patterns/)
 
-[Hướng dẫn Java Design Pattern – Singleton **\***](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
+[Hướng dẫn Java Design Pattern – Singleton \*\*\*\*\*](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
 
-[Hướng dẫn Java Design Pattern – Factory Method **\***](https://gpcoder.com/4352-huong-dan-java-design-pattern-factory-method/)
+[Hướng dẫn Java Design Pattern – Factory Method \*\*\*\*\*](https://gpcoder.com/4352-huong-dan-java-design-pattern-factory-method/)
 
-[Hướng dẫn Java Design Pattern – Abstract Factory **\***](https://gpcoder.com/4365-huong-dan-java-design-pattern-abstract-factory/)
+[Hướng dẫn Java Design Pattern – Abstract Factory \*\*\*\*\*](https://gpcoder.com/4365-huong-dan-java-design-pattern-abstract-factory/)
 
 [Hướng dẫn Java Design Pattern – Prototype \*\*\*](https://gpcoder.com/4413-huong-dan-java-design-pattern-prototype/)
 
@@ -24,7 +24,7 @@
 
 [Hướng dẫn Java Design Pattern – Decorator \*\*\*](https://gpcoder.com/4574-huong-dan-java-design-pattern-decorator/)
 
-[Hướng dẫn Java Design Pattern – Facade **\***](https://gpcoder.com/4604-huong-dan-java-design-pattern-facade/)
+[Hướng dẫn Java Design Pattern – Facade \*\*\*\*\*](https://gpcoder.com/4604-huong-dan-java-design-pattern-facade/)
 
 [Hướng dẫn Java Design Pattern – Flyweight \*](https://gpcoder.com/4626-huong-dan-java-design-pattern-flyweight/)
 
@@ -42,7 +42,7 @@
 
 [Hướng dẫn Java Design Pattern – Memento \*](https://gpcoder.com/4763-huong-dan-java-design-pattern-memento/)
 
-[Hướng dẫn Java Design Pattern – Observer **\***](https://gpcoder.com/4747-huong-dan-java-design-pattern-observer/)
+[Hướng dẫn Java Design Pattern – Observer \*\*\*\*\*](https://gpcoder.com/4747-huong-dan-java-design-pattern-observer/)
 
 [Hướng dẫn Java Design Pattern – State \*\*\*](https://gpcoder.com/4785-huong-dan-java-design-pattern-state/)
 
