@@ -1,0 +1,32 @@
+{
+    "name": "ts-pattern-kit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "indexjs",
+    "scripts": {
+        "serve": "node dist/index.js",
+        "start": "npm run serve",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run build-ts",
+        "dev": "npm run build && npm run ts-watch",
+        "build-ts": "tsc",
+        "watch-ts": "tsc -w",
+        "watch-node": "nodemon dist/index.js",
+        "ts-watch": "tsc-watch --onSuccess \"node ./dist/index.js\" --onFailure \"echo Beep! Compilation Failed\" --compiler typescript/bin/tsc",
+        "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.14.0",
+        "@typescript-eslint/parser": "^2.14.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.9.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "nodemon": "^2.0.2",
+        "prettier": "^1.19.1",
+        "tsc-watch": "^4.0.0",
+        "typescript": "^3.7.4"
+    }
+}
