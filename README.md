@@ -1,4 +1,49 @@
 # Project example of implement design pattern to typescript.
+### S.O.I.L.D
+
+#### 1. Single responsibility principle (SRP) – Nguyên lý đơn chức năng
+
+   *A class should have one and only one reason to change, meaning that a class should have only one job.*
+
+#### 2.  Open-Closed principle (OCP) – Nguyên lý đóng mở
+
+   *Objects or entities should be open for extension, but closed for modification.*
+
+   Có thể thoải mái extends 1 class hay object nhưng nên hạn chế sửa đổi nó
+
+#### 3. Liskov substitution principle (LSP) – Nguyên lý thay thế
+
+   *Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
+
+   Là nguyên lí dễ vi phạm nhất, ngụ ý khi thay thế 1 class bằng 1 class con của nó phải chú ý class con không được thay đổi tính đúng đắn của cả chương trình
+
+   VD:
+
+   - class con override method của class cha nhưng với chức năng hoàn toàn khác
+
+   - class con override method của class cha nhưng trả về rỗng, không làm gì. 
+
+   - throw exception với method của class cha trong khi method đó không được quy định sẽ throw exception
+
+     
+
+#### 4. Interface segregation principle (ISP) – Nguyên lý phân tách
+
+   *Many client-specific interfaces are better than one general-purpose interface.*
+
+   Chia nhỏ thành nhiều interface còn hơn là dùng 1 interface cho nhiều chức năng
+
+####  5. Dependency Inversion Principle (DIP) – Nguyên lý đảo ngược phụ thuộc
+
+   *- High-level modules should not depend on low-level modules. Both should depend on abstractions.*
+
+   *- Abstractions should not depend upon details. Details should depend upon abstractions.*
+
+   Nghĩa là
+
+   - Module cấp cao không nên phụ thuộc (dependence) vào module cấp thấp, cả 2 nên phục thuộc vào abstraction. Nghĩa là module cấp cao sẽ định nghĩa ra các interface không đổi và module cấp thấp sẽ implement các interface này. VD module cấp cao chỉ định nghĩa dbAccess với các method connect, find, insert. Module con cụ thể mới kế thừa và định hình nó là mysql hay mongodb.
+   - Interface và abstract không nên phụ thuộc vào implementation mà ngược lại , các class giao tiếp với nhau thông qua interface, không phải thông qua implementation.
+
 
 ### Creation group
 
